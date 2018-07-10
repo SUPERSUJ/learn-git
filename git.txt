@@ -21,3 +21,5 @@ git revert SHA (撤销push, 本地又有xx.txt文件)
 
 本地添加文件
 git add xx.txt
+
+更改上一个commit
