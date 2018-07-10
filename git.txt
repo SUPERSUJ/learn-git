@@ -31,3 +31,7 @@ git diff
 先打开对于文件夹
 cd modify
 git checkout -- '1.txt'
+
+本地还原到某一次commit
+git log
+git reset --hard asdfadfadfadf(本地还原，实际是没有提交的，需要再次提交)
