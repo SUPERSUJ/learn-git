@@ -17,7 +17,7 @@ pwd
 git rm xx.txt (本地仓库的文件删掉了, 远程仓库没有)
 git commit -m 'remove xx.txt'
 git push
-git revert SHA (撤销push, 本地又有xx.txt文件)
+git revert SHA (撤销之前的push, 本地又有xx.txt文件)
 
 本地添加文件
 git add xx.txt
