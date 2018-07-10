@@ -23,3 +23,7 @@ git revert SHA (撤销push, 本地又有xx.txt文件)
 git add xx.txt
 
 更改上一个commit
+git commit -m 'add 更改上一个commit'
+git commit --amend -m '添加更改上一个commit'
+
+
