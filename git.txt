@@ -26,4 +26,8 @@ git add xx.txt
 git commit -m 'add 更改上一个commit'
 git commit --amend -m '添加更改上一个commit'
 
-
+撤销本地修改
+git diff
+先打开对于文件夹
+cd modify
+git checkout -- '1.txt'
