@@ -3,3 +3,4 @@ ls 查看当前文件目录
 pwd 查看当前文件路径
 reset 清空git控制台
 git log 获得日志记录（按q退出）
+git log --pretty=oneline （简洁明了的看到id 和提交内容）

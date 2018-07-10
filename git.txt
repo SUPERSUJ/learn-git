@@ -37,6 +37,10 @@ git log
 git reset --hard asdfadfadfadf(本地还原，实际是还原了但是没有提交的)
 git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区
 用命令git reset HEAD file可以把暂存区的修改撤销掉（unstage），重新放回工作区
+操作：
+git reset --hard sdfadf（只有本地还原）
+git push -f （远程仓库回退到指定的版本，历史记录回退到之前的，未来的没有了）
+如果git push -f 报错或失败，就git config receive.denyNonFastForwards false
 
 
 
