@@ -33,8 +33,8 @@ cd modify
 git checkout -- '1.txt'
 git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令;
 命令git checkout -- readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销，这里有两种情况：
-一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
-一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
+一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；（git add）
+一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。(git commit -m)
 
 
 本地还原到某一次commit
@@ -63,10 +63,12 @@ git push
 
 git status
 查看文件状态
+git checkout -- xx.txt (撤销文件修改)
 git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别
 
 
-
+rm xxx.txt
+git checkout -- xxx.txt (删除文件又一键还原)
 
 
 
