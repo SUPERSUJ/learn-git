@@ -35,3 +35,25 @@ git checkout -- '1.txt'
 本地还原到某一次commit
 git log
 git reset --hard asdfadfadfadf(本地还原，实际是还原了但是没有提交的)
+git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区
+用命令git reset HEAD file可以把暂存区的修改撤销掉（unstage），重新放回工作区
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
