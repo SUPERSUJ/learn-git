@@ -1,0 +1,23 @@
+git clone url(已经连接远程仓库)
+cd fileName
+git remote(展示远程仓库名字)
+git remote -v(展示远程仓库详细信息)
+git remote show origin(origin远程仓库名字)（更加详细展示远程仓库的信息）
+git diff(展示已改动的文件)
+修改文件
+git add .
+git commit -m ''
+git push origin master
+
+
+显示当前路径
+pwd
+
+删除文件
+git rm xx.txt (本地仓库的文件删掉了, 远程仓库没有)
+git commit -m 'remove xx.txt'
+git push
+git revert SHA (撤销push, 本地又有xx.txt文件)
+
+本地添加文件
+git add xx.txt
